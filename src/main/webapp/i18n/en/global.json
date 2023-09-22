@@ -10,6 +10,7 @@
         "project": "Project",
         "label": "Label",
         "ticket": "Ticket",
+        "author": "Author",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

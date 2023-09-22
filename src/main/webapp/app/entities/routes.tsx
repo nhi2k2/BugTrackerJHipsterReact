@@ -6,6 +6,7 @@ import ErrorBoundaryRoutes from 'app/shared/error/error-boundary-routes';
 import Project from './project';
 import Label from './label';
 import Ticket from './ticket';
+import Author from './author';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 export default () => {
@@ -16,6 +17,7 @@ export default () => {
         <Route path="project/*" element={<Project />} />
         <Route path="label/*" element={<Label />} />
         <Route path="ticket/*" element={<Ticket />} />
+        <Route path="author/*" element={<Author />} />
         {/* jhipster-needle-add-route-path - JHipster will add routes here */}
       </ErrorBoundaryRoutes>
     </div>
